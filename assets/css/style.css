@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(241, 242, 218);
+}
+
+.container {
+    position: relative;
+}
+
+.row {
+    position: relative;
+}
+
+#brain-buster {
+    font-family: 'Bungee', cursive;
+    font-size: 75px;
+    position: relative;
+    color: rgb(199, 166, 169);
+}
+
+.title {
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.logo-after-start {
+    position: relative;
+    margin-top: 20px;
+}
+
+.brain {
+    width: 150px;
+}
+
+.brain-after-start {
+    width: 85px;
+}
+
+.start-button {
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 50px;
+    color: rgb(199, 166, 169);
+    background-color: rgb(241, 242, 218);
+    border: 3pt solid rgb(199, 166, 169);
+    transition: .3s;
+}
+
+.start-button:hover {
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 50px;
+    color: rgb(241, 242, 218);
+    background-color: rgb(199, 166, 169);
+    border: 3pt solid rgb(199, 166, 169);
+}
+
+.start {
+    position: relative;
+    margin: 0 auto;
+}
+
+.trivia {
+    background-color: black;
+    color: white;
+}
+
+.clock {
+    position: relative;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    background-color: rgb(229, 230, 208);
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(144, 172, 181);
+    margin: auto;
+}
+
+.remaining {
+    border-bottom: 2pt solid rgb(144, 172, 181);
+    padding-bottom: 5px;
+    display: block;
+}
+
+.time-left {
+    padding-top: 10px;
+    font-size: 30px;
+    display: block;
+}
+
+.question {
+    font-family: 'Bungee', cursive;
+    background-color: rgb(229, 230, 208);
+    text-align: center;
+    padding: 60px;
+    border-radius: 10px;
+    color: rgb(144, 172, 181);
+    margin: auto;
+    font-size: 20px;
+}
+
+.question-title {
+    display: block;
+    border-bottom: 2pt solid rgb(144, 172, 181);
+    padding-bottom: 5px;
+}
+
+.all-answers {
+    display: block;
+}
+
+.answer {
+    display: block;
+    padding: 10px 0px;
+}
+
+.answer:hover {
+    background-color: rgb(144, 172, 181);
+    color: rgb(229, 230, 208);
+}
+
+.a1 {
+    margin-top: 10px
+}
+
+.results {
+    font-family: 'Bungee', cursive;
+    background-color: rgb(229, 230, 208);
+    text-align: center;
+    padding: 60px;
+    border-radius: 10px;
+    color: rgb(144, 172, 181);
+    margin: auto;
+    font-size: 20px;
+}
